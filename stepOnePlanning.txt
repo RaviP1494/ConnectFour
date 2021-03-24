@@ -1,0 +1,7 @@
+function clearBoard() - would clear the board to be an array of six arrays each of length 7, with every value being null
+
+function checkWin(pos) - would return true or false by checking if pos (position) is in a row/column/diagonal of 4 in a row
+
+function makeMove(choice,color) - would assign the value of the color to the lowermost position of the board in the column chosen
+
+function updateBoard() - would update the board in the DOM
