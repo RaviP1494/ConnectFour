@@ -9,13 +9,22 @@
 /* pieces are div within game table cells: draw as colored circles */
 
 .piece {
-  /* TODO: make into circles */
+  /* DONE: make into circles */  
+  position: absolute;
   margin: 5px;
-  width: 80%;
-  height: 80%;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
 }
 
-/* TODO: make pieces red/blue,  depending on player 1/2 piece */
+/* DONE: make pieces red/blue,  depending on player 1/2 piece */
+.p1 {
+  background-color: blue;
+}
+
+.p2 {
+  background-color: red;
+}
 
 /* column-top is table row of clickable areas for each column */
 
