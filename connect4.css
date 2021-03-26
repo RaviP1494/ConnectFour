@@ -10,7 +10,6 @@
 
 .piece {
   /* DONE: make into circles */  
-  position: absolute;
   margin: 5px;
   width: 34px;
   height: 34px;

@@ -115,13 +115,13 @@ function handleClick(evt) {
   // DONE: check if all cells in board are filled; if so call, call endGame
   let allFilled = true;
   for (let i = 5; i >= 0; i--) {
-    if (board[i].some((r) => r === null)) {
+    if (board[i].some((row) => row === null)) {
       allFilled = false;
       break;
     }
   }
   if (allFilled) {
-    endGame('Tie');
+    endGame('Tie game!');
   }
 
   // switch players
